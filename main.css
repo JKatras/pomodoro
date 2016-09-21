@@ -1,0 +1,17 @@
+body {
+  font-family:monospace;
+}
+.container {
+  text-align:center;
+}
+section{
+ 
+  text-align:center;
+  padding:20px;
+}
+.current-time{
+  font-size:3em;
+}
+.session-info, .break-info {
+  display:inline-block;
+}
