@@ -11,30 +11,30 @@
   <section class="timer">
     <h1>Time Remaining</h1>
     <div class="timer-display">
-      <p class="current-min"></p>
-      <p>&#58;</p>
-      <p class="current-sec"></p>
+      <span class="current-time"></span>
+<!--       <p class="current-min"></p>
+      <p><span>&#58;</span></p>
+      <p class="current-sec"></p> -->
     </div>
     <div class="timer-controls">
       <button class="play-btn">play</button>
-      <button class="reset">reset</button>
+      <button class="reset-btn">reset</button>
     <div>
   </section>
-  <section class="session-info">
-    <h3>Session Length</h3>
-    <p class="session-length"></p>
-    <button>&#43;
-  </button>
-    <button>&#45;</button>
-  </section>
-  <section class="break-info">
-    <h3>Break Length</h3>
-    <p class="break-length"></p>
-    <button>&#43;
-  </button>
-    <button>&#45;</button>
-  </section>
-  </div>
+<section class="session-info">
+  <h3>Session Length</h3>
+  <p class="session-length"></p>
+  <button class="increment-btn session">&#45;</button>
+  <button class="increment-btn session">&#43;</button>
+  
+</section>
+<section class="break-info">
+  <h3>Break Length</h3>
+  <p class="break-length"></p>
+  <button class="increment-btn minus">&#45;</button>
+  <button class="increment-btn plus">&#43;</button>
+</section>
+</div>
 <script src="app.js" type="text/javascript"></script>
 </body>
 <html>
